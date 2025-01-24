@@ -129,11 +129,11 @@ for (let i=1; i<= v; i++) {
 // For14. n butun soni berilgan (n > 0). Bir sikldan foydalangan holda quyidagi yig'indini hisoblovchi programma tuzilsin.S = 1! + 2! + 3! + ... + n!;
 
 let NN = +prompt("n soniga qiymat kiriting:");
-let KK = 0;
+let KK = 1;
 let SS = 0;
 
 for (let i=1; i<=NN; i++) {
-    KK+=i;
+    KK*=i;
     SS+=KK;
 } console.log(SS);
 
