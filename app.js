@@ -161,10 +161,10 @@ for(let i=1; i<=N_; i++){
 
 let _A = +prompt("a soniga qiymat kiriting:");
 let _B = +prompt("b soniga qiymat kiriting:");
-
+let counter = 0;
 for (let i=_A; i<=_B; i++) {
-    
-    for (let j = 1; j<=i; j++) {
+    counter++;
+    for (let j = 1; j<=counter; j++) {
         console.log(i);
     }
     
